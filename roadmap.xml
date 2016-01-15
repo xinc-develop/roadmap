@@ -1,5 +1,38 @@
 <?xml version="1.0"?>
 <project name="Xinc - Extensible Continuous Integration">
-<roadmap branch="3.0">
+<roadmap branch="2.5" current="2.5.6">
+   <feature>
+     <name>git plugin works</name>
+     <targetversion>2.5.7</targetversion> 
+   </feature>
+   <feature>
+     <name>email publisher works</name>
+     <targetversion>2.5.8</targetversion>
+   </feature>
+   <feature>
+     <name>phing builder and phin publisher works</name>
+     <targetversion>2.5.9</targetversion>
+   </feature>
+   <feature>
+     <name>a working Xinc Server</name>
+     <targetversion>2.5.10</targetversion>
+   </feature>
+   <feature>
+     <name>crontab plugin</name>
+     <description>
+       A crontab plugin allows multiple cron schedules.
+     </description>
+     <targetvrsion>2.5.11</targetvrsion>
+   </feature>
+   <feature>
+     <name>caius builder plugin</name>
+     <description>
+       Caius is a functional testing framework written in Tcl.
+       It brings support for selenium, tcl unit testing and expect.
+     </description>
+     <link rel="development" url="https://github.com/tobijk/caius<" />
+     <link rel="homepage" url="http://http://caiusproject.com/" />
+     <targetversion>2.5.12</targetversion>
+   </feature>
 </roadmap>
 </project>
